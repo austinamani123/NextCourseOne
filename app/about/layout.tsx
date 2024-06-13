@@ -1,5 +1,11 @@
 import React from 'react'
 import styles from './styles.module.css'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About page',
+  description: 'A page explaining the WebApp'
+}
 
 export default function AboutLayout({
     children,
